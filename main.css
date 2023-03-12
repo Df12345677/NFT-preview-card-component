@@ -1,0 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+ }
+
+ body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+   
+ }
+
+ body p{
+    color:  hsl(215, 51%, 70%);
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 1rem;
+ }
+
+ body .conteiner{
+    padding: 25px;
+    height: 520px;
+    width: 320px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+ }
+
+ body img{
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ body .main h2{
+    color:hsl(0, 0%, 100%) ;
+    margin-top: 10px;
+ }
+
+ body .one{
+    border-bottom:1px solid hsl(215, 32%, 27%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+ }
+
+ body .eth{
+    color:hsl(178, 100%, 50%) ;
+    display: flex;
+    gap: 10px;
+ }
+
+ body .clock{
+    display: flex;
+    gap: 10px;
+    color: hsl(215, 51%, 70%);
+ }
+
+ body .one img{
+    height: 20px;
+    width: 20px;
+ }
+
+ body .two img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+ }
+
+ body .two{
+    display: flex;
+    margin: 20px 0;
+    gap: 15px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ body .two h4{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+ }
+ body .two h4 b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+ }
